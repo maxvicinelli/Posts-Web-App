@@ -1,0 +1,127 @@
+body, html {
+    font-family: 'Chilanka';
+    height: 100%; 
+    background-color: #eae7dc;
+    margin: 0;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .post-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  img {
+    max-width: 300px;
+    height: auto;
+  }
+
+  .post{
+    min-width: 250px;
+    min-height:400px;
+    max-width: 300px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: fit-content;
+    height: fit-content;
+    margin: 30px;
+    background-color: #e98074;
+    border: 2px solid #e85a4f;
+    text-align: center;
+  }
+
+  .post-item {
+    padding: 10px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #e98074;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #new-post-icon{
+    margin-right: 40px;
+  }
+  #posts-icon{
+    margin-right: 40px;
+  }
+
+  i{
+    margin: 10px;
+  }
+  i:hover{
+    color: cyan;
+    cursor: pointer;
+  }
+
+  .new-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .new-post-title{
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+  }
+  .new-post-title-main{
+    margin: 25px;
+    font-size: 36px;
+  }
+  .new-post-item{
+    margin: 10px;
+  }
+  .new-post-input{
+    width: 300px;
+  }
+
+  .single-post-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-text;
+    overflow-wrap: break-word;
+    margin: 40px;
+    background-color: #e98074;
+    text-align: center;
+    border: 3px solid black;
+  }
+  .single-post-content{
+    margin: 30px;
+    margin-top: 0px;
+    width: 100%;
+  }
+  .single-post-text{
+    margin: 40px;
+    word-wrap: break-text;
+    overflow-wrap: break-word;
+    font-size: 24px;
+
+  }
+  .post-icons{
+
+  }
+
+  p{
+    margin: 0;
+  }
+  textarea{
+    margin: 15px;
+    width: 400px;
+    height: 40px;
+    max-width: 90%;
+  }
